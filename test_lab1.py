@@ -5,7 +5,7 @@ def decrement_by_one(i):
     return i - 1
     
 def test_increment_answer():
-    assert increment_by_one(2) == 3
+    assert increment_by_one(4) == 5
     
 def test_decrement_answer():
     assert decrement_by_one(4) == 3
