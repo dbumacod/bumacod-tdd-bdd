@@ -9,7 +9,7 @@ calc = Calculator()
 
 print(calc.add(1, 1))
 
-def test_calculator():
+def test_add():
     assert calc.add(1, 1) == 2
     assert calc.add(1.0,2.5) == 3.5
     assert calc.add(0,0) == 0
